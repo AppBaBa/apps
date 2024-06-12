@@ -3,11 +3,6 @@ void main() {
   message((message) => message, 'Hello Flutter');
 }
 
-typedef StringCallBack(String message);
-
-void message(StringCallBack callBack, String messages) {
-  print(callBack(messages));
-}
 
 (String id, String name) getUser() {
   return ('Amit', 'Name');
