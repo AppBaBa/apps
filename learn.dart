@@ -2,11 +2,13 @@ void main() {
   print(cities.London.differs);
   var uses = getUser();
   print(uses);
-  var record = ('Flutter', a: 12, b: true, "Amit");
-  print(record.$1);
-  var listOfInts = [1, 2, 3, 4];
-  var listString = [for (var i in listOfInts) '$i'];
-  print(listString);
+  message((message) => message, 'Hello Flutter');
+}
+
+typedef StringCallBack(String message);
+
+void message(StringCallBack callBack, String messages) {
+  print(callBack(messages));
 }
 
 (String id, String name) getUser() {
