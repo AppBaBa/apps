@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 void main() {
   print(cities.London.differs);
   String s = 'Hello Flutter';
@@ -7,6 +9,8 @@ void main() {
   final listA = [1, 2, 3];
   final listB = [1, 2, 3];
   print(listA == listB);
+  final size = 2 * (6 / math.sqrt2);
+  print(size);
 }
 
 enum cities { Delhi, Mumbai, London, Noida, Goa }
