@@ -2,6 +2,8 @@ void main() {
   print(cities.London.differs);
   String s = 'Hello Flutter';
   print('Hello + $s');
+  List<int> lists = [1, 2, 3, 4, 5];
+  print('List integer +$lists');
 }
 
 enum cities { Delhi, Mumbai, London, Noida, Goa }
