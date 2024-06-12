@@ -1,7 +1,5 @@
 void main() {
   print(cities.London.differs);
-  var uses = getUser();
-  print(uses);
   message((message) => message, 'Hello Flutter');
 }
 
